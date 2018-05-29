@@ -1,0 +1,224 @@
+/* Body Tag Start */
+body {
+	font-family: 'Oxygen', sans-serif;
+	background-color: #000000;
+}
+/* Body Tag End */
+
+/* Navigation Bar Start */
+li {
+	margin-right: 46px;
+}
+.navbar-nav {
+	margin: auto;
+}
+.navbar-brand {
+	margin-right: 100px;
+}
+.nav-item > a {
+	font-size: 22px;
+}
+.nav-item > a:hover {
+	background-color: #d75a4a;
+}
+.nav-link {
+	color: #ffffff !important;
+}
+.activePage {
+	color: #d75a4a !important;
+	font-weight: bolder;
+}
+.activePage:hover {
+	background-color: transparent !important;
+}
+.donateButton {
+	background-color: #d75a4a;
+}
+/* Navigation Bar End */
+
+/* Heading Section Start */
+.headerSection {
+	position: relative;
+	text-align: center;
+	background-color: blue;
+	width: auto;
+	height: 320px;
+}
+.contactHeadingBackground {
+	width: 100%;
+	height: 320px;
+}
+.pageHeading {
+	font-weight: bold;
+	font-size: 70px;
+	color: #FFFFFF;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+/* Heading Section End */
+
+/* Contact Us Section Start */
+.formSection {
+	float: left;
+	background-color: #FFFFFF;
+	width: 60%;
+	padding-left: 80px;
+	padding-right: 50px;
+	height: 620px;
+}
+.messageHeading {
+	font-size: 40px;
+	font-weight: bold;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+.messageInfo {
+	font-size: 22px;
+}
+.form {
+	border-radius: 5px;
+	border: 1px solid #ABABAB;
+	padding: 30px 25px 10px 25px;
+}
+input {
+	width: 100%;
+	padding: 12px 20px;
+	border: 1px solid #ABABAB;
+	border-radius: 8px;
+	box-sizing: border-box;
+	margin-bottom: 10px
+}
+#name {
+	width: 100%;
+	padding: 12px 20px;
+	border: 1px solid #ABABAB;
+	border-radius: 8px;
+	box-sizing: border-box;
+	margin-bottom: 10px
+}
+#email {
+	width: 100%;
+	padding: 12px 20px;
+	border: 1px solid #ABABAB;
+	border-radius: 8px;
+	box-sizing: border-box;
+	margin-bottom: 10px
+}
+#message {
+	width: 100%;
+	height: 100px;
+	box-sizing: border-box;
+	padding: 12px 20px;
+	border: 1px solid #ABABAB;
+	border-radius: 8px;
+	margin-bottom: 20px;
+}
+#submitButton {
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	cursor: pointer;
+	height: 60px;
+	width: 200px;
+	border-radius: 50px;
+	font-size: 20px;
+	font-weight: bold;
+}
+#submitButton:hover {
+	background-color: #45a049;
+}
+.detailSection {
+	float: right;
+	background-color: #FFFFFF;
+	width: 40%;
+	padding-left: 80px;
+	padding-right: 20px;
+	height: 620px;
+}
+.contactHeading {
+	font-size: 40px;
+	font-weight: bold;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.emailSection {
+	padding-bottom: 30px;
+}
+.emailImage {
+	float: left;
+	margin-right: 30px;
+	margin-top: 10px;
+}
+.emailHeading {
+	font-size: 22px;
+	font-weight: bold;
+}
+.emailInfo {
+	font-size: 16px;
+}
+.phoneSection {
+	padding-bottom: 30px;
+}
+.phoneImage {
+	float: left;
+	margin-right: 30px;
+	margin-top: 10px;
+}
+.phoneHeading {
+	font-size: 22px;
+	font-weight: bold;
+}
+.phoneInfo {
+	font-size: 16px;
+}
+.addressImage {
+	float: left;
+	margin-right: 30px;
+	margin-top: 10px;
+}
+.addressHeading {
+	font-size: 22px;
+	font-weight: bold;
+}
+.addressInfo {
+	font-size: 16px;
+	padding-left: 68px;
+}
+/* Contact Us Section End */
+
+/* Social Plugins Section Start */
+.socialPlugins {
+	clear: both;
+	background-color: #dfe6e9;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+.socialIconHolder {
+	text-align: center;
+}
+.socialIcon {
+	margin-right: 10px;
+}
+.socialIcon:hover {
+	opacity: 0.7;
+}
+/* Social Plugins Section End */
+
+/* Copyright Section Start */
+.copyright {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #636e72;
+	color: #FFFFFF;
+	letter-spacing: 2px;
+}
+.copyrightHeading {
+	font-size: 26px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+/* Copyright Section End */

@@ -1,0 +1,192 @@
+/* Body Tag Start */
+body {
+	font-family: 'Oxygen', sans-serif;
+	background-image: url(../images/volunteerSection/volunteerBackgroundImage.jpg);
+	height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/* Body Tag End */
+
+/* Logo Bar Start */
+.logoBar {
+	background-color: #192a56;
+	position: relative;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.logoHeading {
+	color: #FFFFFF;
+	font-size: 68px;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: 'Barrio', cursive;
+}
+.logoSubHeading {
+	color: #FFFFFF;
+	font-size: 36px;
+	margin-bottom: 0px;
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: 'Harmattan', sans-serif;
+}
+/* Logo Bar End */
+
+/* Navigation Bar Start */
+li {
+	margin-right: 46px;
+}
+.navbar-nav {
+	margin: auto;
+}
+.nav-item > a {
+	font-size: 22px;
+}
+.nav-item > a:hover {
+	background-color: #d75a4a;
+}
+.nav-link {
+	color: #ffffff !important;
+}
+.donateButton {
+	background-color: #d75a4a;
+}
+/* Navigation Bar End */
+
+/* Carousel Section Start */
+.carousel-inner > .carousel-item > img {
+	width: 1920px;
+	height: 725px;
+}
+.carouselHeading {
+	display: inline;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #d75a4a;
+	font-size: 76px;
+}
+.carouselInfo {
+	margin-top: 10px;
+	background-color: #d63031;
+	font-size: 28px;
+}
+/* Carousel Section End */
+
+/* Button Group Section Start */
+.infoTag {
+	font-size: 22px;
+	padding-top: 20px;
+	font-weight: lighter;
+}
+.headingTag {
+	font-size: 36px;
+	padding-top: 6px;
+	padding-bottom: 20px;
+	font-weight: bold;
+}
+/* Button Group Section End */
+
+/* Events Section Start */
+.jumbotron {
+	background-color: #FFFFFF;
+	height: 730px;
+}
+.eventImage {
+	float: left;
+	margin-left: 70px;
+	margin-right: 40px;
+}
+.eventHeading {
+	font-size: 32px;
+}
+.eventInfo {
+	font-size: 22px;
+	padding-right: 10px;
+}
+.knowMoreLink {
+	color: #000000;
+	text-decoration: none !important;
+}
+.knowMoreLink:hover {
+	color: #000000;
+}
+.interestedButton {
+	font-size: 22px;
+	padding-top: 10px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+}
+/* Events Section End */
+
+/* Volunteer Section Start */
+.card {
+	margin: auto;
+	margin-top: 160px;
+	margin-bottom: 160px;
+}
+.card-body {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.card-title {
+	font-size: 52px;
+	font-weight: bold;
+	letter-spacing: 2.5px;
+}
+.card-subtitle {
+	font-size: 28px;
+	font-weight: lighter;
+}
+.card-text {
+	font-size: 20px;
+	color: #b2bec3;
+}
+.buttonPadding {
+	padding-top: 10px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+}
+/* Volunteer Section End */
+
+/* Social Plugins Section Start */
+.socialPlugins {
+	background-color: #dfe6e9;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+.socialIconHolder {
+	text-align: center;
+}
+.socialIcon {
+	margin-right: 10px;
+}
+.socialIcon:hover {
+	opacity: 0.7;
+}
+/* Social Plugins Section End */
+
+/* Copyright Section Start */
+.copyright {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #636e72;
+	color: #FFFFFF;
+	letter-spacing: 2px;
+}
+.copyrightHeading {
+	font-size: 26px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+/* Copyright Section End */

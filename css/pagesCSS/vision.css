@@ -1,0 +1,135 @@
+/* Body Tag Start */
+body {
+	font-family: 'Oxygen', sans-serif;
+	background-color: #000000;
+}
+/* Body Tag End */
+
+/* Navigation Bar Start */
+li {
+	margin-right: 46px;
+}
+.navbar-nav {
+	margin: auto;
+}
+.navbar-brand {
+	margin-right: 100px;
+}
+.nav-item > a {
+	font-size: 22px;
+}
+.nav-item > a:hover {
+	background-color: #d75a4a;
+}
+.nav-link {
+	color: #ffffff !important;
+}
+.activePage {
+	color: #d75a4a !important;
+	font-weight: bolder;
+}
+.activePage:hover {
+	background-color: transparent !important;
+}
+.donateButton {
+	background-color: #d75a4a;
+}
+/* Navigation Bar End */
+
+/* Heading Section Start */
+.headerSection {
+	position: relative;
+	text-align: center;
+	height: 320px;
+}
+.visionHeadingBackground {
+	width: 100%;
+	height: 320px;
+}
+.pageHeading {
+	font-weight: bold;
+	font-size: 70px;
+	color: #FFFFFF;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+/* Heading Section End */
+
+/* Vision Section Start */
+.jumbotron {
+	height: auto;
+	background-color: #FFFFFF;
+	margin-bottom: 0px;
+	position: relative;
+	text-align: center;
+	color: #000000;
+}
+.visionBackground {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.visionText {
+	font-family: 'Caveat', cursive;
+	font-size: 52px;
+	line-height: 1.0;
+	font-weight: bold;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.tag {
+	font-size: 76px;
+}
+/* Vision Section End */
+
+/* Button Group Section Start */
+.infoTag {
+	font-size: 22px;
+	padding-top: 20px;
+	font-weight: lighter;
+}
+.headingTag {
+	font-size: 36px;
+	padding-top: 6px;
+	padding-bottom: 20px;
+	font-weight: bold;
+}
+/* Button Group Section End */
+
+/* Social Plugins Section Start */
+.socialPlugins {
+	background-color: #dfe6e9;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+.socialIconHolder {
+	text-align: center;
+}
+.socialIcon {
+	margin-right: 10px;
+}
+.socialIcon:hover {
+	opacity: 0.7;
+}
+/* Social Plugins Section End */
+
+/* Copyright Section Start */
+.copyright {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #636e72;
+	color: #FFFFFF;
+	letter-spacing: 2px;
+}
+.copyrightHeading {
+	font-size: 26px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+/* Copyright Section End */
